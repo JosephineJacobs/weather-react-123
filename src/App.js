@@ -1,9 +1,10 @@
 import "./App.css";
-
+import "bootstrap/dist/css/bootstrap.css";
 export default function App() {
   return (
     <div className="App">
-      Weather App
+      <div className="container">
+      <h1>Weather App</h1>
       <footer>
         This project was coded by{" "}
         <a
@@ -30,6 +31,7 @@ export default function App() {
           Netlify
         </a>
       </footer>
+    </div>
     </div>
   );
 }
